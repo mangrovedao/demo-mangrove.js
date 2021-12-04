@@ -1,0 +1,17 @@
+{
+  "name": "demo-mangrove.js",
+  "version": "1.0.0",
+  "description": "A helper repo to get up and running with mangrove.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Giry",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@giry/mangrove.js": "^0.0.2",
+    "dotenv": "^8.6.0",
+    "ethers": "^5.5.2"
+  }
+}
