@@ -1,5 +1,6 @@
 // Generates a new random private key and display the associated address
-import ethers from "ethers";
+
+const ethers = require("ethers");
 
 const w = ethers.Wallet.createRandom();
 
