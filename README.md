@@ -19,11 +19,11 @@ Only use the generated keys for testing purposes.
 
 ## Run
 
-Run `node markets.ts` to display all the offers on WETH/DAI, WETH/USDC and DAI/USDC pairs.
+Run `yarn ts-node markets.ts` to display all the offers on WETH/DAI, WETH/USDC and DAI/USDC pairs.
 
-Run `node maker.ts` to create an offer on WETH/DAI market.
+Run `yarn ts-node maker.ts` to create an offer on WETH/DAI market.
 
-Run `node taker.ts` to execute a market order on WETH/DAI market.
+Run `yarn ts-node taker.ts` to execute a market order on WETH/DAI market.
 
 # Using other mangrove.js versions
 

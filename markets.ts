@@ -1,10 +1,12 @@
 
+require('dotenv-flow').config();
 const { Mangrove } = require('@mangrovedao/mangrove.js');
 
 const main = async () => {
   const mgv = await Mangrove.connect({ provider: process.env.ETHEREUM_NODE_URL });
 
   try {
+    console.log("Start...");
     const markets = {
       'WETH:DAI': await mgv.market({base:"WETH",quote:"DAI"}),
       'WETH:USDC': await mgv.market({base:"WETH",quote:"USDC"}),
@@ -26,7 +28,6 @@ const main = async () => {
       });
       console.log(`Subscribed to ${pair} market...`);
     }
-    console.log('');
   } catch(e) {
     console.error(e);
     await mgv.disconnect();
