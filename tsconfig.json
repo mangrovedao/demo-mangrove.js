@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "lib": ["ES2020", "dom"],
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "noErrorTruncation": true,
+    "target": "es2015",
+    "incremental":true
+  },
+  "include": [
+    "*.ts"
+  ]
+}
